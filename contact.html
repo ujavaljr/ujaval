@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="jewellery.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+     <zav>
+    <div class="logo">💎 Royal Jewels</div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <ul class="zav-links" id="zav-links">
+      <li><a href="jewellery.html">Home</a></li>
+      <li><a href="collections.html">Collections</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="gallery.html" style="color:#d4af37;">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="#shop">Shop Now</a></li>
+    </ul>
+  </zav>
+
+
+  <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-24">
+
+    <!-- ✅ Contact Section -->
+    <section id="main-contact" class="bg-white p-8 rounded-xl shadow-2xl">
+      <h1 class="text-4xl font-extrabold text-center text-gray-800 mb-12">
+        <span class="section-title">Get In Touch</span>
+      </h1>
+
+      <div class="grid md:grid-cols-2 gap-12">
+        <!-- Contact Form -->
+        <div>
+          <h2 class="text-2xl font-semibold text-gray-700 mb-6">Send Us a Message</h2>
+
+          <form class="space-y-6 contact-box">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+
+            <div class="field-box flex flex-col gap-4">
+              <input type="text" placeholder="Full Name" required>
+              <input type="email" placeholder="Email Address" required>
+              <input type="text" placeholder="Phone Number" required>
+              <input type="text" placeholder="Email Subject" required>
+              <textarea placeholder="Your Message" required></textarea>
+            </div>
+
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+
+        <!-- Map / Location Placeholder -->
+        <div class="flex flex-col">
+          <h2 class="text-2xl font-semibold text-gray-700 mb-6">Our Location</h2>
+          <div class="map-placeholder rounded-xl shadow-lg flex-grow flex items-center justify-center text-gray-500">
+            Map View Placeholder
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ✅ Contact Details -->
+    <section id="details" class="text-center py-12">
+      <h2 class="text-3xl font-bold text-gray-800 mb-12">
+        <span class="section-title">Visit or Call Us</span>
+      </h2>
+
+      <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+        <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+          <div class="text-3xl text-[#a78100] mb-3">📍</div>
+          <h3 class="text-xl font-semibold mb-2">Our Boutique</h3>
+          <p class="text-gray-600">123 Jewel Street, Luxury Towers,</p>
+          <p class="text-gray-600">Precious City, 90210</p>
+        </div>
+
+        <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+          <div class="text-3xl text-[#a78100] mb-3">📞</div>
+          <h3 class="text-xl font-semibold mb-2">Call & Email</h3>
+          <p class="text-gray-600">Phone: <a href="tel:+1234567890" class="hover:text-[#a78100]">+1 (234) 567-890</a></p>
+          <p class="text-gray-600">Email: <a href="mailto:info@royaljewels.com" class="hover:text-[#a78100]">info@royaljewels.com</a></p>
+        </div>
+
+        <div class="p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+          <div class="text-3xl text-[#a78100] mb-3">⏰</div>
+          <h3 class="text-xl font-semibold mb-2">Business Hours</h3>
+          <p class="text-gray-600">Mon - Fri: 10:00 AM - 6:00 PM</p>
+          <p class="text-gray-600">Sat: 11:00 AM - 4:00 PM (By Appointment)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ✅ FAQ -->
+    <section id="faq" class="py-12 bg-white rounded-xl shadow-2xl p-8">
+      <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
+        <span class="section-title">Frequently Asked Questions</span>
+      </h2>
+
+      <div class="max-w-4xl mx-auto space-y-6">
+        <details class="bg-gray-50 rounded-lg p-4 cursor-pointer">
+          <summary class="font-semibold text-gray-700 hover:text-[#a78100]">Do you offer custom jewelry design?</summary>
+          <p class="mt-2 text-gray-600 border-t pt-2 border-gray-200">
+            Yes, we specialize in custom bespoke jewelry. Please use the contact form above to start a conversation about your unique piece.
+          </p>
+        </details>
+
+        <details class="bg-gray-50 rounded-lg p-4 cursor-pointer">
+          <summary class="font-semibold text-gray-700 hover:text-[#a78100]">What is your return policy?</summary>
+          <p class="mt-2 text-gray-600 border-t pt-2 border-gray-200">
+            We offer a 30-day return policy on all non-custom, unworn items. See our 'Shop Now' page for full terms and conditions.
+          </p>
+        </details>
+
+        <details class="bg-gray-50 rounded-lg p-4 cursor-pointer">
+          <summary class="font-semibold text-gray-700 hover:text-[#a78100]">Can I book a private consultation?</summary>
+          <p class="mt-2 text-gray-600 border-t pt-2 border-gray-200">
+            Absolutely. Consultations are highly recommended for bridal and high-end collections. Contact us via phone or email to schedule your appointment.
+          </p>
+        </details>
+      </div>
+    </section>
+
+    <!-- ✅ Newsletter -->
+    <section id="newsletter" class="py-12 bg-[#a78100] bg-opacity-10 rounded-xl shadow-inner p-8 text-center">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4">Stay Ahead of the Sparkle</h2>
+      <p class="text-gray-700 mb-6 max-w-xl mx-auto">
+        Subscribe to our exclusive newsletter for early access to new collections and bespoke jewelry events.
+      </p>
+
+      <form class="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
+        <input type="email" required placeholder="Enter your email address" class="flex-grow input-style border-white bg-white sm:text-lg px-4 py-2 rounded-lg">
+        <button type="submit" class="py-3 px-6 rounded-lg font-semibold gold-button sm:w-auto w-full">
+          Subscribe
+        </button>
+      </form>
+    </section>
+
+  </main>
+
+  
+
+ <footer>
+  <div class="footer-container">
+    <div class="footer-column">
+      <h3>💎 Royal Jewels</h3>
+      <p>Discover timeless beauty, crafted with perfection and passion. Each piece reflects our heritage of fine craftsmanship and luxury.</p>
+    </div>
+
+    <div class="footer-column">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="jewellery.html">Home</a></li>
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Customer Care</h4>
+      <ul>
+        <li><a href="#">Shipping Policy</a></li>
+        <li><a href="#">Return & Exchange</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Follow Us</h4>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 <span>Royal Jewels</span> | Crafted with 🤍 & Elegance</p>
+  </div>
+</footer>
+
+
+<script>
+function toggleMenu() {
+  const menu = document.getElementById("zav-links");
+  menu.classList.toggle("active");
+}
+</script>
+  
+    
+</body>
+</html>
